@@ -31,10 +31,10 @@ btnSearch.addEventListener("click", function () {
 });
 (function () {
   let image = [
-    "/2082049.jpg",
-    "/daniele-buso-qzUenL35ZYw-unsplash.jpg",
-    "/nathan-queloz-VWZJgYLpmuI-unsplash.jpg",
-    "/zu-photography-JjAhzqZzk1M-unsplash.jpg",
+    "2082049.jpg",
+    "daniele-buso-qzUenL35ZYw-unsplash.jpg",
+    "nathan-queloz-VWZJgYLpmuI-unsplash.jpg",
+    "zu-photography-JjAhzqZzk1M-unsplash.jpg",
   ];
   let randNum = Math.floor(Math.random() * image.length);
   body.style.backgroundImage = `url('${image[randNum]}')`;
